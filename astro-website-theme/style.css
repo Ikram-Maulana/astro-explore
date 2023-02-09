@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 :root {
   --color-primary: #0f172a;
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background: #f8fafc;
@@ -102,7 +102,11 @@ h3 {
 .showcase {
   height: auto;
   background-color: var(--color-secondary);
-  background-image: linear-gradient(to bottom, var(--color-primary), rgb(15 23 42 / 0));
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    rgb(15 23 42 / 0)
+  );
   padding: 30px;
 }
 
