@@ -1,5 +1,9 @@
 ---
+export interface titleProps {
+  title?: string;
+}
 
+const { title = "Astro Crash Course" } = Astro.props as titleProps;
 ---
 
 <!DOCTYPE html>
@@ -11,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Astro Crash Course</title>
+    <title>{title}</title>
   </head>
   <body>
     <slot />
