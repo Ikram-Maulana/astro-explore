@@ -28,9 +28,7 @@ export default function Showcase({
           </div>
 
           <p className={styles.showcaseDemo}>
-            <small>
-              This is a demo website used for the YouTube crash course
-            </small>
+            <small>This is an exploration result website using astro</small>
           </p>
         </>
       )}
