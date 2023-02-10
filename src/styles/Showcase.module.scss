@@ -1,9 +1,11 @@
+@import "variables";
+
 .showcase {
   height: auto;
-  background-color: var(--color-secondary);
+  background-color: $color-secondary;
   background-image: linear-gradient(
     to bottom,
-    var(--color-primary),
+    $color-primary,
     rgb(15 23 42 / 0)
   );
   padding: 30px;

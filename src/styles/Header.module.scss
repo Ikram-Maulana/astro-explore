@@ -1,6 +1,8 @@
+@import "variables";
+
 .header {
   height: 70px;
-  background: var(--color-primary);
+  background: $color-primary;
 
   & .container {
     height: 100%;
