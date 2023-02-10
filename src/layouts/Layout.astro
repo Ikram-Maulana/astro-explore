@@ -1,4 +1,5 @@
 ---
+import Header from "../components/Header";
 import "../styles/global.css";
 
 export interface titleProps {
@@ -23,6 +24,7 @@ const { title = "Astro Crash Course" } = Astro.props as titleProps;
     <title>{title}</title>
   </head>
   <body>
+    <Header />
     <slot />
   </body>
 </html>
