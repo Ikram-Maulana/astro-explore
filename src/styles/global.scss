@@ -78,3 +78,18 @@ h3 {
     display: none;
   }
 }
+
+/* Page Content */
+.page-content {
+  margin: 20px 0;
+
+  & h2 {
+    margin: 20px 0;
+    font-size: 40px;
+  }
+
+  & h3 {
+    margin: 20px 0;
+    font-size: 25px;
+  }
+}

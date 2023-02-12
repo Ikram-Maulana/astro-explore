@@ -1,0 +1,41 @@
+.tabs {
+  margin-top: 30px;
+}
+
+.tabsHeader {
+  display: flex;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+
+  & li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+
+.tabsContent {
+  font-size: 18px;
+  padding: 20px;
+  border: 1px solid #333;
+  font-weight: bold;
+  background: #f4f4f4;
+}
+
+.tabActive {
+  font-weight: 800;
+  color: #a741ff;
+}
+
+.tabDeactive {
+  font-weight: 400;
+  color: #fff;
+}
+
+.contentActive {
+  display: flex;
+}
+
+.contentDeactive {
+  display: none;
+}
