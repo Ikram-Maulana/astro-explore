@@ -1,0 +1,31 @@
+@import "variables";
+
+.header {
+  height: 70px;
+  background: $color-primary;
+
+  & .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  & img {
+    height: 35px;
+    vertical-align: middle;
+  }
+
+  & nav ul {
+    display: flex;
+
+    & li {
+      padding: 0 10px;
+
+      & a {
+        color: #fff;
+      }
+    }
+  }
+}
