@@ -23,8 +23,20 @@ export default function Showcase({
       {showExtra && (
         <>
           <div className={styles.showcaseImg}>
-            <img className="logos" src={logos} alt="" />
-            <img className="logos-small" src={logosSmall} alt="" />
+            <img
+              className="logos"
+              src={logos}
+              alt="Framework Logo"
+              width={299}
+              height={85}
+            />
+            <img
+              className="logos-small"
+              src={logosSmall}
+              alt="Framework Logo"
+              width={905}
+              height={85}
+            />
           </div>
 
           <p className={styles.showcaseDemo}>

@@ -7,7 +7,7 @@ export default function Header() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <a href="index.html">
-            <img src={logo} alt="" />
+            <img src={logo} alt="Astro Logo" width={107} height={35} />
           </a>
         </div>
         <nav>
