@@ -27,14 +27,14 @@ export default function Showcase({
               className="logos"
               src={logos}
               alt="Framework Logo"
-              width={299}
+              width={905}
               height={85}
             />
             <img
               className="logos-small"
               src={logosSmall}
               alt="Framework Logo"
-              width={905}
+              width={299}
               height={85}
             />
           </div>
