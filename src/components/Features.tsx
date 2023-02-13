@@ -19,9 +19,12 @@ const features = [
 export default function Features() {
   return (
     <section className={styles.features}>
-      <div className={styles.container}>
+      <div className={`container ${styles.container}`}>
         {features.map((feature, i) => (
-          <Card title={feature.title} body={feature.body} key={i} />
+          <Card key={i}>
+            <h3>{feature.title}</h3>
+            <p>{feature.body}</p>
+          </Card>
         ))}
       </div>
     </section>
