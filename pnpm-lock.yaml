@@ -5,6 +5,7 @@ specifiers:
   "@types/react": ^18.0.28
   "@types/react-dom": ^18.0.10
   astro: ^2.0.10
+  astro-google-fonts-optimizer: ^0.2.2
   prettier: ^2.8.4
   prettier-plugin-astro: ^0.8.0
   react: ^18.2.0
@@ -16,6 +17,7 @@ dependencies:
   "@types/react": 18.0.28
   "@types/react-dom": 18.0.10
   astro: 2.0.10_sass@1.58.0
+  astro-google-fonts-optimizer: 0.2.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1122,6 +1124,13 @@ packages:
     resolution:
       {
         integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==,
+      }
+    dev: false
+
+  /astro-google-fonts-optimizer/0.2.2:
+    resolution:
+      {
+        integrity: sha512-YQxp/ExF3NzUomAGuu1VKecO7/ETRnhnE50gqwAqfpbGPZFj4MYa4XxK1ukBg3R63QmKuE5uurOiKmXiLzttuw==,
       }
     dev: false
 
